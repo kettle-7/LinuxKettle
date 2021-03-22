@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I go by the name linux_kettle now!
 
 <!--
 **linuxkettle/LinuxKettle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+I used to be Kettle3D on GitHub, but I decided to do a little re-branding because I no longer feel like being centred on a game that I haven't played this year, and the installer doesn't really work. So I thought, I'll try something else.
+
+Kettle3D was great for me when I was just starting to program, and I was using Windows and gaming more than programming in my free time. Now, I use Linux, play around with GTK among other things, and prefer my own programs to be open source. (Spoiler: Kettle3D was not.)
+
+I'm using Fedora (just installed yesterday!), and in about a month I'll probably switch to a different distro (I haven't settled on one yet since I first started using Linux in June), and I have started a blog at [linuxkettle.github.io](https://linuxkettle.github.io/) about tinkering with programming on Linux.
+
+I'm currently looking for ideas of what to make, I have a couple to choose from. I'm mostly sticking to GTK and Vala (I've only been using both since February this year), and I'm liking it so far.
+
+You can find more about what I'm doing at [linuxkettle.github.io](https://linuxkettle.github.io/).
