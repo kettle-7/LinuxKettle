@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=kettlede
+Exec=kettlede
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

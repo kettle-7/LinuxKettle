@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="randomwords">
+	<schema id="io.github.kettle3d.RandomWords" path="/io/github/kettle3d/RandomWords/">
+	</schema>
+</schemalist>

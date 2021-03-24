@@ -1,0 +1,7 @@
+data/io.github.kettle3d.kettlede.ClockApplet.desktop.in
+data/io.github.kettle3d.kettlede.ClockApplet.appdata.xml.in
+data/io.github.kettle3d.kettlede.ClockApplet.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

@@ -1,0 +1,18 @@
+CFLAGS=-I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread
+LFLAGS=/usr/lib64/libgio-2.0.so /usr/lib64/libgobject-2.0.so /usr/lib64/libglib-2.0.so /usr/lib64/libgtk-3.so /usr/lib64/libgdk-3.so /usr/lib64/libpangocairo-1.0.so /usr/lib64/libpango-1.0.so /usr/lib64/libharfbuzz.so /usr/lib64/libatk-1.0.so /usr/lib64/libcairo-gobject.so /usr/lib64/libcairo.so /usr/lib64/libgdk_pixbuf-2.0.so
+
+buildandclean: randomwords
+	rm *.o
+	mv randomwords ..
+
+randomwords: main.o window.o randomwords-resources.o
+	cc -o randomwords main.o window.o randomwords-resources.o $(LFLAGS)
+
+main.o: main.c
+	cc -c main.c -o main.o $(CFLAGS)
+
+window.o: window.c
+	cc -c window.c -o window.o $(CFLAGS)
+
+randomwords-resources.o: randomwords-resources.c
+	cc -c randomwords-resources.c -o randomwords-resources.o $(CFLAGS)

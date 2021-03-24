@@ -1,0 +1,7 @@
+data/io.github.kettle3d.kettlede.SystemApplet.desktop.in
+data/io.github.kettle3d.kettlede.SystemApplet.appdata.xml.in
+data/io.github.kettle3d.kettlede.SystemApplet.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

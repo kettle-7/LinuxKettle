@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="systemapplet">
+	<schema id="io.github.kettle3d.kettlede.SystemApplet" path="/io/github/kettle3d/kettlede/SystemApplet/">
+	</schema>
+</schemalist>

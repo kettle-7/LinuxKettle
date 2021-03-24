@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Random Word Generator
+Exec=randomwords
+Icon=io.github.kettle3d.RandomWords
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

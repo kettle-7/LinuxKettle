@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=powerapplet
+Exec=powerapplet
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

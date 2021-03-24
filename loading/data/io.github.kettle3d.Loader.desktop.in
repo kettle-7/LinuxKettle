@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=loading
+Exec=loading
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

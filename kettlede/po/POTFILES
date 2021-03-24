@@ -1,0 +1,7 @@
+data/io.github.kettle3d.KettleDE.desktop.in
+data/io.github.kettle3d.KettleDE.appdata.xml.in
+data/io.github.kettle3d.KettleDE.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

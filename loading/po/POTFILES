@@ -1,0 +1,7 @@
+data/io.github.kettle3d.Loader.desktop.in
+data/io.github.kettle3d.Loader.appdata.xml.in
+data/io.github.kettle3d.Loader.gschema.xml
+src/loading-window.ui
+src/main.c
+src/loading-window.c
+

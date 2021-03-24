@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/kettle3d/RandomWords">
+    <file>window.ui</file>
+  </gresource>
+</gresources>

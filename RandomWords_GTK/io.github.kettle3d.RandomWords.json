@@ -1,0 +1,49 @@
+{
+    "app-id" : "io.github.kettle3d.RandomWords",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "3.38",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "randomwords",
+    "finish-args" : [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland"
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        {
+            "name" : "randomwords",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "dir",
+                    "path" : "/home/kettle/Programming/randomwords"
+                }
+            ]
+        },
+        {
+            "name": "icons",
+            "buildsystem": "simple",
+            "build-commands": [
+                "mkdir -p /app/share/icons",
+                "cp -r icons /app/share"
+            ],
+            "sources": [{
+                "type": "dir",
+                "path": "/home/kettle/Programming/randomwords"
+            }]
+        }
+    ]
+}
