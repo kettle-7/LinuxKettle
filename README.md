@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I'm using [helloSystem](https://github.com/helloSystem/hello) and Fedora [Silverblue](https://silverblue.fedoraproject.org/), and it's about the longest I've gone without re-installing an OS. (that's a good thing, by the way)  
-The work I'm doing now mostly involves PyQt and QML, mostly for a project called [AppShop](https://github.com/linuxkettle/AppShop) that's in early development but it's my plan to make a cross-platform app store that all can use for free. It's focused on privacy (the only data it sends is HTTP requests for app files, the only data it recieves is those apps.) If you're interested, you can contribute by either helping with the project directly or sending me requests for apps to put in there to make it a little less *empty*.
+I'm using Debian and Fedora [Silverblue](https://silverblue.fedoraproject.org/).  
+The work I'm doing now mostly involves PyQt and QML, mostly for a project called [AppShop](https://github.com/linuxkettle/AppShop) that's in early development but it's my plan to make a cross-platform app store that all can use for free. It's focused on privacy (the only data it sends is HTTP requests for app files, the only data it recieves is those apps.) If you're interested, you can contribute by either helping with the project directly or sending me requests for apps to put in there to make it a little less *empty*. I'm also helping make something big, which I'll release details about when I feel it's ready.
 
 I know enough Python to spend most of my time reading documentation, but not enough to not have to spend most of my time reading documentation. My QML is okay. I'm working on that. I'm considering learning Go, but not until I've finished learning QML, and Python, and all of those other languages.
 
