@@ -9,6 +9,8 @@ from PySide2.QtUiTools import QUiLoader
 from PySide2.QtCore import QFile, Qt
 from PySide2.QtGui import QIcon
 
+sys.path.append(os.getenv("HOME") + "/.local/lib/python3/site-packages")
+
 usedWords = []
 
 
