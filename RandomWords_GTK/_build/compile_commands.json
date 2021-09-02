@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "/home/kettle/Programming/linuxkettle/RandomWords_GTK/_build",
+    "command": "valac -C --debug --debug --pkg gtk+-3.0 --pkg gio-2.0 --color=always --directory src/randomwords.p --basedir ../src --gresources=../src/randomwords.gresource.xml --target-glib=2.50 ../src/main.vala ../src/window.vala",
+    "file": "../src/main.vala",
+    "output": "src/randomwords.p/main.c"
+  },
+  {
+    "directory": "/home/kettle/Programming/linuxkettle/RandomWords_GTK/_build",
+    "command": "ccache cc -Isrc/randomwords.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -g -pthread -MD -MQ src/randomwords.p/meson-generated_.._randomwords-resources.c.o -MF src/randomwords.p/meson-generated_.._randomwords-resources.c.o.d -o src/randomwords.p/meson-generated_.._randomwords-resources.c.o -c src/randomwords-resources.c",
+    "file": "src/randomwords-resources.c",
+    "output": "src/randomwords.p/meson-generated_.._randomwords-resources.c.o"
+  },
+  {
+    "directory": "/home/kettle/Programming/linuxkettle/RandomWords_GTK/_build",
+    "command": "ccache cc -Isrc/randomwords.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/randomwords.p/meson-generated_main.c.o -MF src/randomwords.p/meson-generated_main.c.o.d -o src/randomwords.p/meson-generated_main.c.o -c src/randomwords.p/main.c",
+    "file": "src/randomwords.p/main.c",
+    "output": "src/randomwords.p/meson-generated_main.c.o"
+  },
+  {
+    "directory": "/home/kettle/Programming/linuxkettle/RandomWords_GTK/_build",
+    "command": "ccache cc -Isrc/randomwords.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/randomwords.p/meson-generated_window.c.o -MF src/randomwords.p/meson-generated_window.c.o.d -o src/randomwords.p/meson-generated_window.c.o -c src/randomwords.p/window.c",
+    "file": "src/randomwords.p/window.c",
+    "output": "src/randomwords.p/meson-generated_window.c.o"
+  }
+]
