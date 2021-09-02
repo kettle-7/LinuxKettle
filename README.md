@@ -1,5 +1,4 @@
-### Hi, I go by the name linux_kettle now!
-
+### Hi, I am linux_kettle!
 <!--
 **linuxkettle/LinuxKettle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -15,12 +14,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I used to be Kettle3D on GitHub, but I decided to do a little re-branding because I no longer feel like being centred on a game that I haven't played this year, and the installer doesn't really work. So I thought, I'll try something else.
+I'm using Debian and Fedora [Silverblue](https://silverblue.fedoraproject.org/).  
+The work I'm doing now mostly involves PyQt and QML, mostly for a project called [AppShop](https://github.com/linuxkettle/AppShop) that's in early development but it's my plan to make a cross-platform app store that all can use for free. It's focused on privacy (the only data it sends is HTTP requests for app files, the only data it recieves is those apps.) If you're interested, you can contribute by either helping with the project directly or sending me requests for apps to put in there to make it a little less *empty*. I'm also helping make something big, which I'll release details about when I feel it's ready.
 
-Kettle3D was great for me when I was just starting to program, and I was using Windows and gaming more than programming in my free time. Now, I use Linux, play around with GTK among other things, and prefer my own programs to be open source. (Spoiler: Kettle3D was not.)
-
-I'm using Fedora (just installed yesterday!), and in about a month I'll probably switch to a different distro (I haven't settled on one yet since I first started using Linux in June), and I have started a blog at [linuxkettle.github.io](https://linuxkettle.github.io/) about tinkering with programming on Linux.
-
-I'm currently looking for ideas of what to make, I have a couple to choose from. I'm mostly sticking to GTK and Vala (I've only been using both since February this year), and I'm liking it so far.
+I know enough Python to spend most of my time reading documentation, but not enough to not have to spend most of my time reading documentation. My QML is okay. I'm working on that. I'm considering learning Go, but not until I've finished learning QML, and Python, and all of those other languages.
 
 You can find more about what I'm doing at [linuxkettle.github.io](https://linuxkettle.github.io/).
